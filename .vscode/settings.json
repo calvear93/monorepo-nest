@@ -1,0 +1,68 @@
+{
+	"[javascript][typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[json][jsonc][markdown][css][less][scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.detectIndentation": true,
+	"editor.insertSpaces": false,
+	"editor.rulers": [80, 100],
+	"eslint.format.enable": true,
+	"eslint.lintTask.enable": false,
+	"eslint.probe": ["javascript", "typescript", "json"],
+	"eslint.trace.server": "off",
+	"eslint.useESLintClass": true,
+	"eslint.validate": ["javascript", "typescript"],
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.expand": false,
+	"explorer.fileNesting.patterns": {
+		"*.cjs": "${capture}.cjs.*",
+		"*.env.json": "${capture}.*.env.json",
+		"*.json": "${capture}.json",
+		"*.mjs": "${capture}.mjs.*",
+		"*.ts": "${capture}.*",
+		"*.tsx": "${capture}.*",
+		".eslintrc*": ".eslintignore, .prettierrc*, .prettierignore",
+		"README*": "CHANGELOG*, LICENSE*",
+		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, pnpm-workspace.yaml, package.release.json, .npmrc, .syncpackrc.json",
+		"tsconfig.json": "tsconfig.*.json, nodemon.json"
+	},
+	"explorer.incrementalNaming": "smart",
+	"explorer.sortOrder": "type",
+	"files.exclude": {
+		"**/*.log": true,
+		"**/*.tsbuildinfo": true,
+		"**/.DS_Store": true,
+		"**/.git": true,
+		"**/.git/objects/**": true,
+		"**/.git/subtree-cache/**": true,
+		"**/.hg": true,
+		"**/.history/**": true,
+		"**/.svn": true,
+		"**/CVS": true,
+		"**/bower_components/**": true,
+		"**/desktop.ini": true,
+		"**/folderico*.ico": true,
+		"**/node_modules/**": true
+	},
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"prettier.eslintIntegration": true,
+	"prettier.useTabs": true,
+	"search.exclude": {
+		"**/.rollup.cache": true,
+		"**/.vscode": true,
+		"**/build": true,
+		"**/coverage": true,
+		"**/dist": true,
+		"**/package-lock.json": true,
+		"**/pnpm-lock.yaml": true
+	},
+	"typescript.preferences.importModuleSpecifier": "relative",
+	"typescript.preferences.importModuleSpecifierEnding": "js",
+	"typescript.suggest.autoImports": true,
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"typescript.validate.enable": true
+}
