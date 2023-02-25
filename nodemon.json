@@ -6,8 +6,8 @@
 		"ts": "ts-node --esm --transpile-only"
 	},
 	"ignore": [
-		"*.test.ts",
-		"*.spec.ts",
+		"*.test.*",
+		"*.spec.*",
 		"__tests__",
 		"__mocks__",
 		"__fixtures__"
