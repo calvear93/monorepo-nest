@@ -1,6 +1,6 @@
 import { HttpProvider } from '@libs/http';
 import { Logger, Module } from '@nestjs/common';
-import { HealthModule, SampleModule } from '../app/modules/index.js';
+import { HealthModule, SampleModule } from './modules/index.js';
 
 @Module({
 	imports: [HealthModule, SampleModule],
