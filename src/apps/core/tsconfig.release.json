@@ -12,7 +12,6 @@
 		"**/*.test.ts",
 		"**/__tests__",
 		"**/__mocks__",
-		"**/__fixtures__",
-		"**/tests"
+		"**/__fixtures__"
 	]
 }

@@ -4,6 +4,7 @@ declare global {
 		interface ProcessEnv {
 			readonly NODE_ENV: 'development' | 'production' | 'test';
 			readonly ENV: 'dev' | 'release';
+			readonly TARGET: string;
 			readonly DEBUG?: string;
 
 			// SECTION: runtime environment
