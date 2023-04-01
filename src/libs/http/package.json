@@ -1,0 +1,8 @@
+{
+	"version": "0.0.1",
+	"name": "@libs/http",
+	"main": "src/http.provider.ts",
+	"module": "src/http.provider.ts",
+	"types": "src/http.provider.ts",
+	"type": "module"
+}

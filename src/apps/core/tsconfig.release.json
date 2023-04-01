@@ -1,0 +1,18 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"incremental": false,
+		"sourceMap": false,
+		"declaration": false,
+		"declarationMap": false,
+		"removeComments": true
+	},
+	"include": ["src"],
+	"exclude": [
+		"**/*.spec.ts",
+		"**/*.test.ts",
+		"**/__tests__",
+		"**/__mocks__",
+		"**/__fixtures__"
+	]
+}

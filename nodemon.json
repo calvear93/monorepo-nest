@@ -1,0 +1,15 @@
+{
+	"watch": ["../../../src/**/*"],
+	"ext": "ts,mts,cts,json",
+	"restartable": "rs",
+	"execMap": {
+		"ts": "ts-node --esm --transpile-only"
+	},
+	"ignore": [
+		"*.test.*",
+		"*.spec.*",
+		"__tests__",
+		"__mocks__",
+		"__fixtures__"
+	]
+}
