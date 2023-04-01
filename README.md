@@ -6,8 +6,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/calvear93/nestjs-template" target="_blank">
-	<img src="https://img.shields.io/github/license/calvear93/nestjs-template" alt="Package License" />
+  <a href="https://github.com/calvear93/monorepo-nest" target="_blank">
+	<img src="https://img.shields.io/github/license/calvear93/monorepo-nest" alt="Package License" />
   </a>
 </p>
 
